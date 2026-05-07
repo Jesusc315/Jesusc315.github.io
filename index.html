@@ -3,17 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Website Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
-    <a href="https://virtual-store-shopping.vercel.app/">Virtual Store Shopping</a>
-</div>
-<div class="container">
-    <a href="https://westinghouse-website.vercel.app/">Westinghouse Json Page</a>
-</div>
-<div class="container">
-    <a href="https://e-commerce-project-two-omega.vercel.app/">E-commerce site</a>
-</div>
+    <h1>Welcome to my website portfolio</h1>
+    <div class="project-grid">
+        <article class="project-card">
+            <div class="project-head">
+                <h2>Virtual Store Shopping</h2>
+                <a class="project-link" href="https://virtual-store-shopping.vercel.app/">Open Project</a>
+            </div>
+            <div class="project-block">
+                <p class="project-label">What it contains</p>
+                <ul>
+                    <li>JavaScript functionality for dynamic content</li>
+                    <li>Shopping cart and checkout workflow</li>
+                    <li>Using DOM to transfer data between elements</li>
+                </ul>
+            </div>
+            <div class="project-block">
+                <p class="project-label">Struggles I experienced</p>
+                <ul>
+                    <li>Data entry would fail because of usage cases</li>
+                    <li>Implementing incorrect entry cases</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-head">
+                <h2>Westinghouse Json Page</h2>
+                <a class="project-link" href="https://westinghouse-website.vercel.app/">Open Project</a>
+            </div>
+            <div class="project-block">
+                <p class="project-label">What it contains</p>
+                <ul>
+                    <li>JSON-driven content sections for fast updates</li>
+                    <li>Clean information display and branding styles</li>
+                    <li>Efficent data handling</li>
+                </ul>
+            </div>
+            <div class="project-block">
+                <p class="project-label">Struggles I experienced</p>
+                <ul>
+                    <li>Parsing and displaying JSON data consistently</li>
+                    <li>Making sure each card in which staff members are displayed is properly formatted</li>
+                    <li>Managing the complexity of updating multiple sections with JSON data</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-head">
+                <h2>E-commerce site</h2>
+                <a class="project-link" href="https://e-commerce-project-two-omega.vercel.app/">Open Project</a>
+            </div>
+            <div class="project-block">
+                <p class="project-label">What it contains</p>
+                <ul>
+                    <li>Full product catalog with search options</li>
+                    <li>User-friendly checkout and cart summary</li>
+                    <li>Modern interface with strong visuals</li>
+                </ul>
+            </div>
+            <div class="project-block">
+                <p class="project-label">Struggles I experienced</p>
+                <ul>
+                    <li>Keeping state across cart actions</li>
+                    <li>Making the interface feel polished and intuitive</li>
+                    <li>Organizing code for easier maintenance</li>
+                    <li>Database research and backend integration</li>
+                    <li>Complex usage of JavaScript</li>
+                </ul>
+            </div>
+        </article>
+    </div>
 </body>
 </html>
