@@ -7,77 +7,91 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to my website portfolio</h1>
-    <div class="project-grid">
-        <article class="project-card">
-            <div class="project-head">
-                <h2>Virtual Store Shopping</h2>
-                <a class="project-link" href="https://virtual-store-shopping.vercel.app/">Open Project</a>
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a class="nav-brand" href="index.html">Jesus C.</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="resume.html">Resume</a>
             </div>
-            <div class="project-block">
-                <p class="project-label">What it contains</p>
-                <ul>
-                    <li>JavaScript functionality for dynamic content</li>
-                    <li>Shopping cart and checkout workflow</li>
-                    <li>Using DOM to transfer data between elements</li>
-                </ul>
+        </div>
+    </nav>
+    <main class="page-content">
+        <section class="hero">
+            <p class="eyebrow">Senior Portfolio Project</p>
+            <h1>Jesus C.</h1>
+            <p class="hero-copy">I build websites and interactive web apps using HTML, CSS, and JavaScript. Explore my live work, read the project stories, and learn how to contact me for feedback or collaboration.</p>
+            <div class="hero-badges">
+                <span>Front-End Focus</span>
+                <span>Responsive Design</span>
+                <span>Live Projects</span>
             </div>
-            <div class="project-block">
-                <p class="project-label">Struggles I experienced</p>
-                <ul>
-                    <li>Data entry would fail because of usage cases</li>
-                    <li>Implementing incorrect entry cases</li>
-                </ul>
-            </div>
-        </article>
+        </section>
 
-        <article class="project-card">
-            <div class="project-head">
-                <h2>Westinghouse Json Page</h2>
-                <a class="project-link" href="https://westinghouse-website-6ohl-led4k7hti-jesus-projects-635bebba.vercel.app/staff-dynamic.html">Open Project</a>
+        <section class="project-section" id="projects">
+            <div class="section-header">
+                <p class="section-label">Featured Projects</p>
+                <h2>My recent work</h2>
             </div>
-            <div class="project-block">
-                <p class="project-label">What it contains</p>
-                <ul>
-                    <li>JSON-driven content sections for fast updates</li>
-                    <li>Clean information display and branding styles</li>
-                    <li>Efficent data handling</li>
-                </ul>
-            </div>
-            <div class="project-block">
-                <p class="project-label">Struggles I experienced</p>
-                <ul>
-                    <li>Parsing and displaying JSON data consistently</li>
-                    <li>Making sure each card in which staff members are displayed is properly formatted</li>
-                    <li>Managing the complexity of updating multiple sections with JSON data</li>
-                </ul>
-            </div>
-        </article>
 
-        <article class="project-card">
-            <div class="project-head">
-                <h2>E-commerce site</h2>
-                <a class="project-link" href="https://e-commerce-project-jesusc315-jesus-projects-635bebba.vercel.app/">Open Project</a>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-head">
+                        <h2>Virtual Store Shopping</h2>
+                    </div>
+                    <div class="project-block">
+                        <p class="project-label">What it contains</p>
+                        <ul>
+                            <li>JavaScript-driven product selection and cart updates</li>
+                            <li>Checkout workflow with validation and totals</li>
+                            <li>Modern store layout that works on desktop and mobile</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a class="project-link" href="project-virtual-store.html">Project Details</a>
+                        <a class="project-link project-secondary" href="https://virtual-store-shopping-1e1y.vercel.app/" target="_blank" rel="noopener">Live Site</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-head">
+                        <h2>Westinghouse JSON Page</h2>
+                    </div>
+                    <div class="project-block">
+                        <p class="project-label">What it contains</p>
+                        <ul>
+                            <li>Staff profiles and content loaded from JSON data</li>
+                            <li>Reusable page sections for easier updates</li>
+                            <li>Clear layout for quick reading and navigation</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a class="project-link" href="project-westinghouse.html">Project Details</a>
+                        <a class="project-link project-secondary" href="https://westinghouse-website-6ohl-led4k7hti-jesus-projects-635bebba.vercel.app/staff-dynamic.html" target="_blank" rel="noopener">Live Site</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-head">
+                        <h2>E-commerce Site</h2>
+                    </div>
+                    <div class="project-block">
+                        <p class="project-label">What it contains</p>
+                        <ul>
+                            <li>Responsive product catalog and search elements</li>
+                            <li>Cart summary designed for easy checkout</li>
+                            <li>Clean user interface with polished visuals</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a class="project-link" href="project-ecommerce.html">Project Details</a>
+                        <a class="project-link project-secondary" href="https://e-commerce-project-jesusc315-jesus-projects-635bebba.vercel.app/" target="_blank" rel="noopener">Live Site</a>
+                    </div>
+                </article>
             </div>
-            <div class="project-block">
-                <p class="project-label">What it contains</p>
-                <ul>
-                    <li>Full product catalog with search options</li>
-                    <li>User-friendly checkout and cart summary</li>
-                    <li>Modern interface with strong visuals</li>
-                </ul>
-            </div>
-            <div class="project-block">
-                <p class="project-label">Struggles I experienced</p>
-                <ul>
-                    <li>Keeping state across cart actions</li>
-                    <li>Making the interface feel polished and intuitive</li>
-                    <li>Organizing code for easier maintenance</li>
-                    <li>Database research and backend integration</li>
-                    <li>Complex usage of JavaScript</li>
-                </ul>
-            </div>
-        </article>
-    </div>
+        </section>
+    </main>
 </body>
 </html>
